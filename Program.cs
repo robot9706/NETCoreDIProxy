@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace DITest
 {

@@ -17,7 +17,7 @@ namespace DITest
                      // Add the implementation which does not actually implement the service interface
                      services.AddSingleton<ExampleServiceImplementation>();
 
-                     // Create a proxy which implements IExampleServiceInterface and invokes methods in IOtherWIthSameMethod
+                     // Create a proxy which implements IExampleServiceInterface and invokes methods in ExampleServiceImplementation
                      services.AddProxy<IExampleServiceInterface, ExampleServiceImplementation>();
 
                      // Add a test service
